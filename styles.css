@@ -50,9 +50,6 @@ p, h1, h2, h3, h4, h5, h6 {
 p {
   text-wrap: pretty;
 }
-h1, h2, h3, h4, h5, h6 {
-  text-wrap: balance;
-}
 
 /*
   9. Create a root stacking context
@@ -105,3 +102,64 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0.6;
   text-align: center;
 }
+
+/* Layout */
+
+.container {
+  background-color: var(--card-bg-color);
+  border-radius: 0.5rem;
+  box-shadow: 0px 20px 20px -10px rgba(23, 25, 41, 0.20);
+  height: 48.75rem;
+  width: 20.4375rem;
+}
+
+.header-photo-container{
+  height: 15rem;
+  width: 100%;
+}
+
+.header-photo {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  background: url(./images/image-header-mobile.jpg) lightblue 50% / cover no-repeat;
+  
+}
+
+.photo-mask{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  opacity: 0.6;
+  background-color: #580582;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.text-section {
+  margin: 2rem;
+  height: 29.25rem;
+  width: 16.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.highlight {
+  color: var(--highlight-color);
+}
+
+.stats-section{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 2.5rem;
+}
+
