@@ -43,6 +43,6 @@ In future projects, I plan to continue improving my CSS Grid skills and explore 
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-- LinkedIn - [Your Name](https://www.linkedin.com/in/yourusername)
+- Brian J Meinert
+- Frontend Mentor - [@bmeinert8](https://www.frontendmentor.io/profile/bmeinert8)
+
