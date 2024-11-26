@@ -1,0 +1,44 @@
+@media (min-width: 75rem) {
+
+  .text-preset-1, .text-preset-2, .text-preset-3 {
+    text-align: left;
+  }
+  .container {
+    height: 27.875rem;
+    width: 69.375rem;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .header-photo-container{
+    height: 27.875rem;
+    width: 33.875rem;
+  }
+
+  .header-photo {
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0.5rem;
+    background: url(./images/image-header-desktop.jpg) lightblue 50% / cover no-repeat;
+  }
+
+  .photo-mask{
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0.5rem;
+  }
+
+  .text-section {
+    padding: 4.5rem 6rem 3.69rem 4.5rem;
+    width: 36rem;
+  }
+
+  .main-text {
+    gap: 1.56rem;
+  }
+
+  .stats-section{
+    display: flex;
+    flex-direction: row;
+    gap: 3.94rem;
+    padding-top: 4.5rem;
+  }
+}
