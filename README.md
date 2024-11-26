@@ -21,8 +21,8 @@ This project is a solution to the [Frontend Mentor Stats Preview Card Component 
 
 ### Links
 
-- Solution URL: [Add solution URL here](#)
-- Live Site URL: [Add live site URL here](#)
+- Solution URL: [Stats Preview Card Solution](https://www.frontendmentor.io/solutions/responsive-stats-preview-card-component-levAqdnSlX)
+- Live Site URL: [Stats Preview Card](https://bmeinert8.github.io/stats-preview-card/)
 
 ## My Process
 
