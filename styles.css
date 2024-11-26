@@ -1,0 +1,106 @@
+/*CSS Variables*/
+
+:root {
+  --bg-color: #0A0C1C;
+  --card-bg-color: #1B1937;
+  --highlight-color: #AB5CDB;
+  --text-color: #FFFFFF;
+}
+
+/* CSS Reset */
+/* 1. Use a more-intuitive box-sizing model */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* 2. Remove default margin */
+* {
+  margin: 0;
+}
+
+body {
+  /* 3. Add accessible line-height */
+  line-height: 1.5;
+  /* 4. Improve text rendering */
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 5. Improve media defaults */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 6. Inherit fonts for form controls */
+input, button, textarea, select {
+  font: inherit;
+}
+
+/* 7. Avoid text overflows */
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+/* 8. Improve line wrapping */
+p {
+  text-wrap: pretty;
+}
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+}
+
+/*
+  9. Create a root stacking context
+*/
+#root, #__next {
+  isolation: isolate;
+}
+
+/* Typography*/
+
+.text-preset-1 {
+  color: var(--text-color);
+  font-family: "Inter", sans-serif;
+  font-size: clamp(1.75rem, 1.65rem + 0.5vw, 2.25rem);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2rem;
+  text-align: center;
+}
+
+.text-preset-2 {
+  color: var(--text-color);
+  font-family: "Inter", sans-serif;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5625rem;
+  opacity: 0.75;
+  text-align: center;
+}
+
+.text-preset-3 {
+  color: var(--text-color);
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+}
+
+.text-preset-4 {
+  color: var(--text-color);
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5625rem;
+  letter-spacing: 0.0625rem;
+  opacity: 0.6;
+  text-align: center;
+}
